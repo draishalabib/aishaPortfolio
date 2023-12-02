@@ -1,0 +1,90 @@
+/* ------------------------------------------------------------------ */
+/* c. Skill Section
+/* ------------------------------------------------------------------ */
+
+#skill {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  height: 100vh;
+  border-bottom: solid 2px rgb(174, 159, 159);
+  box-shadow: 8px rgb(175, 163, 163);
+}
+/* #dark .bar { */
+/* background-color: rgba(70, 66, 66, 0.35); */
+/* } */
+/* #light .bar { */
+/* background-color: #273234; */
+/* } */
+/* #skill h1 { */
+/* padding-top: 2vw; */
+/* } */
+/* #skill p { */
+/* padding-bottom: 0.2vw; */
+/* } */
+
+.progress-title {
+  padding-top: 1rem;
+  text-align: center;
+}
+#progress {
+  display: flex;
+  margin: 0.5vw;
+}
+.bars {
+  width: 50vw;
+  text-align: center;
+  justify-content: center;
+}
+.bar {
+  height: 11vh;
+  display: flex;
+  border-radius: 1rem;
+  background-color: rgba(13, 13, 13, 0.5);
+  box-shadow: 1px 1px 1px 1px white;
+}
+.progressbar-img {
+  height: 11vh;
+  width: 10vw;
+  border-radius: 1rem;
+  margin-right: 1rem;
+  cursor: pointer;
+}
+.progressbar-img:hover {
+  transform: scale(1.05);
+}
+
+.progressbar {
+  position: relative;
+  width: 450vw;
+  height: 1.5vw;
+  justify-content: center;
+  align-items: center;
+  margin: 2vw 10vw;
+  border-radius: 5px;
+  background-color: rgb(223, 207, 207);
+}
+.progresspercent {
+  max-width: 65vw;
+  transition: translate(-50%, -50%);
+  color: rgb(14, 15, 8);
+}
+
+@media only screen and (max-width: 640px) {
+  #skill h1 {
+    padding-top: 2vw;
+    font-size: 1.5rem;
+  }
+  #skill p {
+    padding-bottom: 1vw;
+    font-size: 0.6rem;
+  }
+  .progress-title {
+    padding-top: 3rem;
+    text-align: center;
+  }
+}

@@ -1,0 +1,147 @@
+/* d. Resume Section
+/* ------------------------------------------------------------------ */
+
+#resume {
+  background-image: url(../../images/into.jpg);
+  background-attachment: fixed;
+  background-size: cover !important;
+  height: 100vh;
+  width: 100%;
+  padding-top: 5vw;
+  align-items: center;
+  justify-content: center;
+  -webkit-background-size: cover !important;
+  border-bottom: solid 2px rgb(174, 159, 159);
+  box-shadow: 8px rgb(175, 163, 163);
+}
+.resume-nav {
+  width: 50%;
+  padding: 1vw;
+  margin-left: 25vw;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  border: 1px solid rgb(132, 117, 117);
+  background-color: rgb(18, 16, 16);
+}
+
+#resume .resume-nav h1 strong {
+  text-transform: uppercase;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+#resume .resume-nav h1 strong {
+  border-bottom: 2px solid #11abb0;
+  padding-bottom: 0.1vw;
+}
+#resume .resume-nav h3 {
+  font-size: 1.8rem;
+}
+
+#resume .info {
+  font-size: 13px;
+  color: #8ca0ae;
+  margin-left: 30px;
+}
+
+#resume .resume-nav p {
+  font-size: 13px;
+  color: #666f76;
+}
+#resume .date {
+  font: 10px/10px "opensans-regular", sans-serif;
+}
+
+.row {
+  width: 100%;
+  max-width: auto;
+  margin: 0 auto;
+}
+/* column widths */
+
+.row .three {
+  width: 25%;
+}
+
+.row .nine {
+  width: 75%;
+}
+
+.row .twelve {
+  width: 100%;
+}
+
+.btn {
+  background-color: #b6d9da;
+  font-size: 0.6rem;
+}
+.btn:hover {
+  background-color: #c7cc32;
+}
+
+@media screen and (max-width: 767px) {
+  .resume-nav {
+    width: 50%;
+    padding: 4vw;
+    margin-left: 25vw;
+    justify-content: center;
+    align-items: center;
+  }
+  #resume .resume-nav h1 strong {
+    text-transform: uppercase;
+    font-size: 10px;
+    letter-spacing: 0.4px;
+  }
+  #resume .resume-nav h1 strong {
+    border-bottom: 1px solid #11abb0;
+    padding-bottom: 0.1vw;
+  }
+  #resume .info {
+    font-size: 10px;
+    padding-top: 2vw;
+    margin-left: 30px;
+  }
+  #resume .resume-nav h3 {
+    font-size: 0.7rem;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  #resume .resume-nav p {
+    font-size: 10px;
+  }
+  .btn {
+    font-size: 1px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .resume-nav {
+    width: 60%;
+    padding: 4vw;
+    margin-left: 15vw;
+    margin-top: 70px;
+    justify-content: center;
+    align-items: center;
+  }
+  #resume .resume-nav h1 strong {
+    font-size: 15px;
+    letter-spacing: 0.6px;
+  }
+  #resume .resume-nav h1 strong {
+    border-bottom: 1px solid #11abb0;
+    padding-bottom: 0.1vw;
+  }
+  #resume .info {
+    font-size: 10px;
+    padding-top: 1vw;
+    margin-left: 30px;
+  }
+  #resume .resume-nav h3 {
+    font-size: 01rem;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  #resume .resume-nav p {
+    font-size: 12px;
+  }
+}

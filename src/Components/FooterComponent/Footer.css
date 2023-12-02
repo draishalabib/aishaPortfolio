@@ -1,0 +1,53 @@
+footer {
+  padding: 20px;
+  font-size: 12px;
+  width: 100%;
+  text-align: center;
+  background-color: black;
+}
+.icon-link {
+  margin-left: 30px;
+  font-size: 30px;
+}
+footer a,
+footer a:visited {
+  color: #7e7171;
+}
+footer a:hover,
+footer a:focus {
+  color: #fff;
+}
+
+/* copyright */
+footer .copyright {
+  color: #7e7171;
+}
+footer .copyright span {
+  display: inline-block;
+  line-height: 25px;
+}
+.ie footer .copyright span {
+  display: inline;
+}
+footer .copyright span:before {
+  color: #113132;
+}
+footer .copyright li:first-child:before {
+  display: none;
+}
+@media screen and (max-width: 640px) {
+  .icon-link {
+    margin-left: 10px;
+    font-size: 15px;
+  }
+
+  footer .copyright {
+    margin: 0.5rem;
+  }
+  footer .copyright span {
+    display: inline;
+    margin: 0.5rem;
+    padding: 3px;
+    line-height: 15px;
+  }
+}

@@ -1,0 +1,206 @@
+#project {
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  justify-content: center;
+  border-bottom: solid 2px rgb(174, 159, 159);
+  box-shadow: 8px rgb(175, 163, 163);
+}
+/* #dark h1 { */
+/* color: white; */
+/* } */
+/* #light h1 { */
+/* color: black; */
+/* } */
+/* #dark span { */
+/* color: white; */
+/* } */
+/* #light span { */
+/* color: black; */
+/* } */
+/* #dark p { */
+/* color: white; */
+/* } */
+/* #light p { */
+/* color: black; */
+/* } */
+/* #dark .project-tamplate { */
+/* background-color: wheat; */
+/* color: black; */
+/* } */
+/* #light .project-tamplate { */
+/* background-color: rgb(183, 238, 229); */
+/* color: black; */
+/* } */
+
+.searchinput input {
+  width: 40vw;
+  padding: 0.4vw;
+  outline: none;
+  border-radius: 50px;
+}
+.project-tamplate h6 {
+  font-size: 1rem;
+  padding-top: 1rem;
+}
+
+.searchinput {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 5vw;
+}
+#icon {
+  font-size: 20px;
+  color: blue;
+  margin-left: 1vw;
+}
+
+#project h1 {
+  font-family: "opensans-bold", sans-serif;
+  font-size: 2rem;
+  padding-top: 2vw;
+}
+
+#project span {
+  font-family: "opensans-bold", sans-serif;
+  font-size: 1rem;
+}
+.tamplate-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0.3vw auto;
+  padding: 15px;
+}
+
+.tamplate-container .tamplate {
+  margin: 1.3vw;
+  padding: 0 0.6vw;
+  transition: transform 0.3s;
+}
+.tamplate:hover {
+  transform: scale(1.15);
+}
+.project-tamplate {
+  background-color: rgb(26, 24, 24);
+  margin: 1vw;
+  border-radius: 20px;
+}
+.tamplate-container .tamplate img {
+  height: 15vw;
+  width: auto;
+  border-radius: 20px;
+  object-fit: cover;
+}
+.tamplate-buttom {
+  align-items: center;
+  display: inline-flex;
+}
+#tamplate-text {
+  font: 10px "opensans-bold", sans-serif;
+  color: white;
+  margin-right: 100px;
+  margin-top: -20px;
+}
+.iconlinks {
+  color: blueviolet;
+  font-size: 25px;
+  cursor: pointer;
+  margin-top: -5px;
+  margin-left: 200px;
+}
+.iconlinks:hover {
+  transform: scale(1.15);
+}
+@media screen and (max-width: 1024px) {
+  #project h1 {
+    font-size: 1.5rem;
+    padding-top: 30px;
+  }
+
+  #project span {
+    font-size: 0.6rem;
+  }
+  .searchinput {
+    padding-top: 10vw;
+  }
+  .tamplate-container {
+    margin: 1px auto;
+    padding-top: 80px;
+  }
+
+  .tamplate-container .tamplate {
+    margin: 1vw;
+    padding: 1vw 2vw;
+  }
+
+  .project-tamplate {
+    margin: 2vw;
+  }
+  .tamplate-container .tamplate img {
+    height: 10vw;
+    width: 20vw;
+  }
+
+  #tamplate-text {
+    font-size: 10px;
+    margin-right: 50px;
+    margin-top: -20px;
+  }
+  .iconlinks {
+    font-size: 16px;
+    margin-top: -5px;
+    margin-left: 100px;
+  }
+}
+@media screen and (max-width: 640px) {
+  #project h1 {
+    font-size: 1rem;
+    padding-top: 10px;
+  }
+  #project span {
+    font-size: 0.6rem;
+  }
+  .searchinput input {
+    padding: 0.1px;
+  }
+  .searchinput {
+    padding-top: 1vw;
+  }
+  #icon {
+    font-size: 12px;
+  }
+  .tamplate-container {
+    margin: 1px 0;
+    padding-top: 10px;
+    display: inline-block;
+  }
+  .tamplate-container .tamplate {
+    margin: 0;
+    padding: 0;
+  }
+  .project-tamplate {
+    width: 200px;
+  }
+  .project-tamplate h6 {
+    font-size: 10px;
+    padding: 1px;
+    margin: 0;
+  }
+  .tamplate-container .tamplate img {
+    height: 10vw;
+    width: 30vw;
+    border-radius: 10px;
+  }
+  #tamplate-text {
+    font-size: 8px;
+    margin-right: 60px;
+    margin-top: -30px;
+  }
+  .iconlinks {
+    font-size: 16px;
+    margin-top: -60px;
+    margin-left: 80px;
+  }
+}

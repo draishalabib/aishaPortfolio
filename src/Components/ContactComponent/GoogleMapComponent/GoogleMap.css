@@ -1,0 +1,47 @@
+#map {
+  width: 100%;
+  padding: 1px;
+  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+}
+#frame {
+  border-radius: 10px;
+}
+/* #dark h2 { */
+/* color: white; */
+/* } */
+/* #light h2 { */
+/* color: black; */
+/* } */
+
+.text h2 {
+  margin-top: 20px;
+  font-size: 1.3rem;
+  text-align: center;
+}
+@media screen and (max-width: 1024px) {
+  #frame {
+    width: 700px;
+    height: 400px;
+  }
+  .text h2 {
+    padding-top: 50px;
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  #frame {
+    border-radius: 10px;
+    width: 400px;
+    height: 100px;
+  }
+  .text h2 {
+    margin-bottom: 10px;
+    font-size: 0.7rem;
+  }
+  #map span {
+    font-size: 5px;
+  }
+}
